@@ -50,10 +50,10 @@ import { baseUrl } from '../shared/baseUrl';
                     <div className="row">
                         <Breadcrumb>
                             <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                            <BreadcrumbItem active>Menu</BreadcrumbItem>
+                            <BreadcrumbItem active>Products</BreadcrumbItem>
                         </Breadcrumb>
                         <div className='col-12'>
-                            <h3>Menu</h3>
+                            <h3>Products</h3>
                             <hr/>
                         </div>
 
