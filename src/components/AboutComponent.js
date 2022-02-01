@@ -2,7 +2,7 @@ import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Loading } from "./LoadingComponent";
-import { baseUrl } from '../shared/baseUrl';
+import { siteUrl } from '../shared/baseUrl';
 import {FadeTransform, Stagger } from "react-animation-components";
 
 
@@ -16,7 +16,7 @@ function RenderLeader({leader}){
                     <Stagger in>
                     <Media tag="li">
                     <Media left middle>
-                        <Media object src={baseUrl+ leader.image} alt={leader.name} />
+                        <Media object src={siteUrl+ leader.image} alt={leader.name} />
                     </Media>
                     <Media body className="ml-4">
                         <Media heading>{leader.name}</Media>
@@ -90,9 +90,9 @@ function About(props) {
                                 <dt className="col-6">Proprietor</dt>
                                 <dd className="col-6">Wilbert Joseph Maliackal</dd>
                                 <dt className="col-6">Last Year's Turnover</dt>
-                                <dd className="col-6">$1,250,375</dd>
+                                <dd className="col-6">$13,375</dd>
                                 <dt className="col-6">Major Project Completions</dt>
-                                <dd className="col-6">42</dd>
+                                <dd className="col-6">32</dd>
                             </dl>
                         </CardBody>
                     </Card>
