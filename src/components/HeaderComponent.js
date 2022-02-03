@@ -79,7 +79,10 @@ class Header extends Component{
                 <div className="container">
                     <div className="row row-header">
                         <div className="col-12 m-1">
-                            <h1 className="text-center">WILBRO GREEN ENERGY</h1>
+
+                            <h1 className="text-center">
+                                <image src="favicon.ico"/>
+                                <br/>WILBRO GREEN ENERGY</h1>
                             <p className="text-center">Let's go green</p>
                             </div>
                     </div>

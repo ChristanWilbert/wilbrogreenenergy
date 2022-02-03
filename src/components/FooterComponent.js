@@ -27,11 +27,9 @@ function Footer(props) {
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
                     <div className="text-center">
-                        <a className="btn btn-social-icon btn-google" href="http://google.com/+"><i className="fa fa-google-plus"></i></a>
                         <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
                         <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/wilbrogreenenergy/?hl=en"><i className="fa fa-instagram"></i></a>
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                        <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCCgn7k8Yzg3T7nJYWaVGh_A"><i className="fa fa-youtube"></i></a>
+                        <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCCgn7k8Yzg3T7nJYWaVGh_A"><i className="fa fa-youtube-play"></i></a>
                         <a className="btn btn-social-icon" href="mailto:wilbrogreenenergy@gmail.com"><i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>

@@ -5,8 +5,8 @@
 
 ul {
   list-style-type: none;
-  
 }
+
 .row-content {
   margin: 0px auto;
   padding: 50px 0px 50px 0px;
@@ -14,7 +14,7 @@ ul {
   min-height: 400px;
 }
 .footer {
-  background-color: #d1c4e9;
+  background-color: #a2e2a2;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
@@ -24,9 +24,15 @@ ul {
   background-image: url(../public/bamboo-forest.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(15, 5, 5);
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #030101, 0 0 5px #010801;
+  font-size: x-large;
+  font-weight: 600;
 }
-
+h1{
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 address {
   font-size: 80%;
   margin: 0px;
@@ -34,14 +40,21 @@ address {
 }
 
 .navbar-dark {
-  background-color: #31d179;
-  color: rgb(255, 255, 255);
+  background-color: #8bed4f;
+  color: #05386b;
 }
 
-.nav-link{
-  color: rgb(252, 252, 252);
+.navbar-dark .navbar-nav .nav-link {
+  color: white; 
 }
-
+.navbar-dark .navbar-nav .nav-link.active{
+  color: #fc9002;
+  font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #fc9002;
+  font-size: 18px;
+}
 .page-enter {
   opacity: 0.01;
   transform: translateX(-100%);
@@ -65,3 +78,10 @@ address {
 }
 
 
+.btn-outline-secondary{
+  background-image: linear-gradient(to right, rgb(231, 4, 231) , rgb(71, 19, 214));
+  color: white;
+}
+.btn-outline-secondary:hover{
+  color:#ffc400;
+}
