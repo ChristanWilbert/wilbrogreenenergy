@@ -36,6 +36,7 @@ function RenderCard({item,isLoading,errMess}){
 }
 function Home(props){
     return(
+        <>{window.scrollBy(0,-1000)}
         <div className="container">
             <div className="row align-items-start">
                 <div className="col-12 col-md m-1">
@@ -53,7 +54,7 @@ function Home(props){
                 
             </div>
         </div>
-    );
+    </>);
 }
 
 export default Home;

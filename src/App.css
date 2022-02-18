@@ -19,19 +19,30 @@ ul {
   padding: 20px 0px 20px 0px;
 }
 .jumbotron {
-  padding: 70px 30px 70px 30px;
+  padding: 10%;
   margin: 0px auto;
-  background-image: url(../public/bamboo-forest.jpg);
+  background-image: url(../public/Background0.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
   text-shadow: 0 0 5px #030101, 0 0 5px #010801;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 600;
+  min-height: 700px;
 }
-h1{
-  font-size: 45px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.jumbotron h1{
+  padding-top: 3%;
+  font-size: 1.4577em;
+  font-style: bold;
+  color: rgb(43, 229, 43);
+  font-family:'Bangers', sans-serif;
+}
+
+.jumbotron p{
+  color: #a9e420c4;
+  font-size: 25px;
+  padding-bottom: 3%;
+  animation: flyin infinite;
 }
 address {
   font-size: 80%;

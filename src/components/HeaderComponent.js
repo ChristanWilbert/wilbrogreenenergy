@@ -44,18 +44,18 @@ class Header extends Component{
             <Collapse isOpen={this.state.isNavOpen} navbar>
                 <Nav navbar>
                     <NavItem >
-                        <NavLink className="nav-link" to="/home">
+                        <NavLink className="nav-link" to="/home" >
                         <span className="fa fa-home fa-lg"></span> Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="nav-link" to="/aboutus">
+                        <NavLink className="nav-link" to="/aboutus" onClick={window.scrollBy(0,350)}>
                         <span className="fa fa-info fa-lg"></span> About Us
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/menu">
-                        <span className="fa fa-list fa-lg"></span> Menu
+                        <span className="fa fa-list fa-lg"></span> Products
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -78,10 +78,10 @@ class Header extends Component{
             <Jumbotron>
                 <div className="container">
                     <div className="row row-header">
-                        <div className="col-12 m-1">
+                        <div className="col-md-12 m-1" style={{backgroundColor: "rgba(0,0,0,.6)"}}>
 
                             <h1 className="text-center">
-                                <image src="favicon.ico"/>
+                                <img src="logo.png" height='150' width="150" alt="center" style={{padding:"10px 10px"}}/>
                                 <br/>WILBRO GREEN ENERGY</h1>
                             <p className="text-center">Let's go green</p>
                             </div>
