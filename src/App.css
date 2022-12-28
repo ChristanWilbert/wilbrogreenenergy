@@ -14,9 +14,10 @@ ul {
   min-height: 400px;
 }
 .footer {
-  background-color: #a2e2a2;
+  background-color: hsl(90, 6%, 20%);
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
+  color: white;
 }
 .jumbotron {
   padding: 10%;
@@ -29,6 +30,9 @@ ul {
   font-size: xx-large;
   font-weight: 600;
   min-height: 700px;
+  padding: 10%;
+  padding: 10%;
+  text-shadow: 0 0 5px #030101, 0 0 5px #010801;                           
 }
 .jumbotron h1{
   padding-top: 3%;
@@ -51,19 +55,24 @@ address {
 }
 
 .navbar-dark {
-  background-color: #8bed4f;
   color: #05386b;
+  background-color: rgb(52, 61, 59);
+  background-image: url("/public/Background0.png");
+}
+.navbar-dark {
+  background-blend-mode: soft-light;
 }
 
+
 .navbar-dark .navbar-nav .nav-link {
-  color: white; 
+  color: rgb(255, 255, 255); 
 }
 .navbar-dark .navbar-nav .nav-link.active{
-  color: #fc9002;
+  color: #33ff00;
   font-size: 18px;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-  color: #fc9002;
+  color: rgb(60, 255, 248);
   font-size: 18px;
 }
 .page-enter {
