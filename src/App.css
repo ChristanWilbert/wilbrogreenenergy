@@ -26,23 +26,20 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 5px #030101, 0 0 5px #010801;
   font-size: xx-large;
   font-weight: 600;
-  min-height: 700px;
-  padding: 10%;
-  padding: 10%;
-  text-shadow: 0 0 5px #030101, 0 0 5px #010801;                           
+  min-height: 100vh;
+  text-shadow: 0 0 5px #030101, 0 0 5px #010801;
 }
-.jumbotron h1{
+.jumbotron h1 {
   padding-top: 3%;
   font-size: 1.4577em;
   font-style: bold;
   color: rgb(43, 229, 43);
-  font-family:'Bangers', sans-serif;
+  font-family: "Bangers", sans-serif;
 }
 
-.jumbotron p{
+.jumbotron p {
   color: #a9e420c4;
   font-size: 25px;
   padding-bottom: 3%;
@@ -63,15 +60,15 @@ address {
   background-blend-mode: soft-light;
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
+  transition-duration: 500ms;
 }
-.navbar-dark .navbar-nav .nav-link.active{
+.navbar-dark .navbar-nav .nav-link.active {
   color: #33ff00;
   font-size: 18px;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
   color: rgb(60, 255, 248);
   font-size: 18px;
 }
@@ -97,11 +94,14 @@ address {
   transition: all 300ms ease-out;
 }
 
-
-.btn-outline-secondary{
-  background-image: linear-gradient(to right, rgb(231, 4, 231) , rgb(71, 19, 214));
+.btn-outline-secondary {
+  background-image: linear-gradient(
+    to right,
+    rgb(231, 4, 231),
+    rgb(71, 19, 214)
+  );
   color: white;
 }
-.btn-outline-secondary:hover{
-  color:#ffc400;
+.btn-outline-secondary:hover {
+  color: #ffc400;
 }
